@@ -10,7 +10,7 @@ const Brand = (props) => {
       role={'presentation'}
       onClick={() => navigate('/')}
     >
-      {/* <h4>SYDNEY</h4> */}
+      {/* <h4>瑞腾农资诚信店</h4> */}
       <svg
         width={127}
         height={24}
