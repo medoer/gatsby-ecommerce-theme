@@ -28,25 +28,19 @@ const Contact = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.section}>
-        <h4>Send Us A Message</h4>
+        <h4>给我们捎个信</h4>
         <p>
-          Our Customer Service team are here for all enquiries Monday to Friday,
-          9am - 5pm AEDT (Australian Eastern Daylight Savings Time).
+        我们的客户服务团队将在周一至周五的9点至17点（澳大利亚东部夏令时）为您服务。
         </p>
-        <p>We look forward to hearing from you.</p>
+        <p>我们期待收到您的来信。</p>
       </div>
 
       <div className={styles.section}>
-        <h4>Phone</h4>
-        <p>+1 424 280 4971</p>
-        <p>Monday to Friday - 9am - 5pm AEDT</p>
-      </div>
-
-      <div className={styles.section}>
-        <h4>Email</h4>
+        <h4>邮箱</h4>
         <p>
-          You can email our Customer Service team at customerservice@example.com
-          or via the contact form below:
+        您可以通过以下方式联系我们的客户服务团队：
+          发送电子邮件至 chubalh@live.com；
+          通过下面的联系方式与我们联系。
         </p>
       </div>
 
@@ -58,7 +52,7 @@ const Contact = (props) => {
               value={contactForm.name}
               handleChange={(id, e) => handleChange(id, e)}
               type={'text'}
-              labelName={'Full Name'}
+              labelName={'称呼'}
               required
             />
             <FormInputField
@@ -66,7 +60,7 @@ const Contact = (props) => {
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
               type={'number'}
-              labelName={'Phone Number'}
+              labelName={'手机号'}
               required
             />
             <FormInputField
@@ -74,7 +68,7 @@ const Contact = (props) => {
               value={contactForm.email}
               handleChange={(id, e) => handleChange(id, e)}
               type={'email'}
-              labelName={'Email'}
+              labelName={'邮件'}
               required
             />
             <div className={styles.commentInput}>
@@ -83,7 +77,7 @@ const Contact = (props) => {
                 value={contactForm.comment}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'textarea'}
-                labelName={'Comments / Questions'}
+                labelName={'备注'}
                 required
               />
             </div>

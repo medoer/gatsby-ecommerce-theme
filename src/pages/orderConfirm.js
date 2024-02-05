@@ -39,7 +39,7 @@ const OrderConfirmPage = (props) => {
             />
 
             <ActionCard
-              title={'Contact Us'}
+              title={'联系我们'}
               icon={'phone'}
               subtitle={'Reach out to us'}
               link={'/support#contact'}

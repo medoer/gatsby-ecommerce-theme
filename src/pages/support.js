@@ -11,12 +11,8 @@ import Container from '../components/Container';
 
 const SupportPage = (props) => {
   const subpages = [
-    { title: 'Shipping', key: 'shipping' },
-    { title: 'Returns', key: 'returns' },
-    { title: 'Payments & Security', key: 'payments' },
-    { title: 'Terms & Conditions', key: 'terms' },
-    { title: 'Contact Us', key: 'contact' },
-    { title: 'Privacy Policy', key: 'policy' },
+    { title: '退货', key: 'returns' },
+    { title: '联系我们', key: 'contact' }
   ];
 
   const [current, setCurrent] = useState(subpages[4]);
@@ -28,21 +24,14 @@ const SupportPage = (props) => {
       case 'contact':
         tempElement = <Contact />;
         break;
-      case 'policy':
-        tempElement = <Policy />;
-        break;
+   
       case 'shipping':
         tempElement = <Policy />;
         break;
       case 'returns':
         tempElement = <Policy />;
         break;
-      case 'payments':
-        tempElement = <Policy />;
-        break;
-      case 'terms':
-        tempElement = <Policy />;
-        break;
+   
       default:
         break;
     }
@@ -57,12 +46,11 @@ const SupportPage = (props) => {
     if (props.location.hash !== '' && props.location.hash !== undefined) {
       const hash = props.location.hash.substring(1);
       const tempCurrent = subpages.filter((detail) => detail.key === hash)[0];
-      if (tempCurrent.key !== current.key) {
+      if (tempCurrent.key !== current?.key) {
         setCurrent(tempCurrent);
         window.scrollTo(0, 475);
       }
     }
-
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.location]);
 
@@ -71,8 +59,8 @@ const SupportPage = (props) => {
       <div className={styles.root}>
         <Banner
           maxWidth={'650px'}
-          name={current.title}
-          bgImage={'/support.png'}
+          name={current?.title}
+          bgImage={'/support-1.jpeg'}
           color={'var(--standard-white)'}
           height={'350px'}
         />
@@ -85,7 +73,7 @@ const SupportPage = (props) => {
                   navigate(`/support#${details.key}`);
                 }}
                 key={details.key}
-                isActive={current.key === details.key}
+                isActive={current?.key === details.key}
                 to={`/support#${details.key}`}
               >
                 {details.title}
@@ -101,7 +89,7 @@ const SupportPage = (props) => {
                 <div
                   key={details.key}
                   className={`${styles.content} ${
-                    current.key === details.key ? styles.show : styles.hide
+                    current?.key === details.key ? styles.show : styles.hide
                   }`}
                 >
                   {renderElement(details.key)}

@@ -69,10 +69,9 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
+                <span className={styles.linkTitle}>订阅</span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
+                  首次购物可享受15%的折扣！此外，您将第一时间了解销售、新产品发布和独家优惠信息！
                 </p>
                 <form
                   className={styles.newsLetterForm}
@@ -82,51 +81,10 @@ const Footer = (prop) => {
                     icon={'arrow'}
                     id={'newsLetterInput'}
                     value={email}
-                    placeholder={'Email'}
+                    placeholder={'邮箱'}
                     handleChange={(_, e) => setEmail(e)}
                   />
                 </form>
-                <div className={styles.socialContainer}>
-                  {Config.social.youtube && (
-                    <div
-                      onClick={() => handleSocialClick('youtube')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'youtube'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.instagram && (
-                    <div
-                      onClick={() => handleSocialClick('instagram')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'instagram'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.facebook && (
-                    <div
-                      onClick={() => handleSocialClick('facebook')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'facebook'}></Icon>
-                    </div>
-                  )}
-
-                  {Config.social.twitter && (
-                    <div
-                      onClick={() => handleSocialClick('twitter')}
-                      role={'presentation'}
-                      className={styles.socialIconContainer}
-                    >
-                      <Icon symbol={'twitter'}></Icon>
-                    </div>
-                  )}
-                </div>
               </div>
             </div>
           </div>
@@ -135,16 +93,16 @@ const Footer = (prop) => {
       <div className={styles.contentBottomContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.contentBottom}>
-            <div className={styles.settings}>
+            {/* <div className={styles.settings}>
               <Dropdown
                 label={'Country/Region'}
                 optionList={Config.currencyList}
               />
               <Dropdown label={'Language'} optionList={Config.languageList} />
-            </div>
+            </div> */}
             <div className={styles.copyrightContainer}>
               <div className={styles.creditCardContainer}>
-                {Config.paymentOptions.amex && (
+                {/* {Config.paymentOptions.amex && (
                   <img
                     className={styles.amexSize}
                     src={'/amex.png'}
@@ -164,17 +122,17 @@ const Footer = (prop) => {
                     src={'/visa.png'}
                     alt={'visa'}
                   ></img>
-                )}
+                )} */}
               </div>
               <span>
-                {new Date().getFullYear()} (c) . Built by{' '}
+                {/* {new Date().getFullYear()} (c) . Built by{' '}
                 <Button target={true} href="https://www.matterdesign.com.au/">
                   Matter.
                 </Button>{' '}
                 Powered by{' '}
                 <Button target={true} href="https://jamm.matter.design/">
                   JAMM.™
-                </Button>
+                </Button> */}
               </span>
             </div>
           </div>

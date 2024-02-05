@@ -84,7 +84,7 @@ const ShopV2Page = (props) => {
           </div>
         </Container>
       </div>
-      <LayoutOption />
+      {/* <LayoutOption /> */}
     </Layout>
   );
 };

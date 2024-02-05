@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = '全球免运费';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
@@ -128,21 +128,21 @@ const Header = (prop) => {
             >
               <Icon symbol={'search'}></Icon>
             </button>
-            <Link
+            {/* <Link
               aria-label="Favorites"
               href="/account/favorites"
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'heart'}></Icon>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               aria-label="Orders"
               href={isAuth() ? '/login' : '/account/orders/'}
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'user'}></Icon>
-            </Link>
-            <button
+            </Link> */}
+            {/* <button
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
               onClick={() => {
@@ -154,7 +154,7 @@ const Header = (prop) => {
               <div className={styles.bagNotification}>
                 <span>1</span>
               </div>
-            </button>
+            </button> */}
             <div className={styles.notificationContainer}>
               <AddNotification openCart={() => setShowMiniCart(true)} />
             </div>
@@ -167,7 +167,7 @@ const Header = (prop) => {
             showSearch === true ? styles.show : styles.hide
           }`}
         >
-          <h4>What are you looking for?</h4>
+          <h4>搜索商品</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
             <FormInputField
               ref={searchRef}
@@ -179,7 +179,7 @@ const Header = (prop) => {
               handleChange={(_, e) => setSearch(e)}
             />
           </form>
-          <div className={styles.suggestionContianer}>
+          {/* <div className={styles.suggestionContianer}>
             {searchSuggestions.map((suggestion, index) => (
               <p
                 role={'presentation'}
@@ -193,7 +193,7 @@ const Header = (prop) => {
                 {suggestion}
               </p>
             ))}
-          </div>
+          </div> */}
           <div
             role={'presentation'}
             onClick={(e) => {

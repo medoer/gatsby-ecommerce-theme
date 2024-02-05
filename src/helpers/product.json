@@ -1,115 +1,167 @@
 [
-    {
-        "productCode": "MJUM8066-GYDZ",
-        "name": "Lambswool Crew Neck Jumper",
-        "vendor": "Sunspel",
-        "price": 75,
-        "alt": "lambswool crew neck jumper",
+  {
+    "productCode": "MJUM8066-GYDZ",
+    "name": "Lambswool Crew Neck Jumper",
+    "vendor": "Sunspel",
+    "price": 75,
+    "alt": "lambswool crew neck jumper",
+    "image": "/products/pdp1.jpeg",
+    "colorOptions": [
+      {
+        "color": "#000000",
+        "title": "Anthracite Melange"
+      },
+      {
+        "color": "#4D34AE",
+        "title": "Pale Purple"
+      },
+      {
+        "color": "#488266",
+        "title": "Green Moss"
+      }
+    ],
+    "sizeOptions": [
+      "xs",
+      "s",
+      "m",
+      "l",
+      "xl"
+    ],
+    "wishlist": true,
+    "tags": [
+      "sample"
+    ],
+    "gallery": [
+      {
         "image": "/products/pdp1.jpeg",
-        "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
-        ],
-        "sizeOptions": ["xs", "s", "m", "l", "xl"],
-        "wishlist": true,
-        "tags": ["sample"],
-        "gallery": [
-            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
-            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
-            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
-            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
-        ],
-        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
-    },
-    {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 1",
-        "image": "/products/shirt1.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"]
-    },    
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman4.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman5.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman6.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"]
-    }
-  ]
+        "alt": "pdp description 1"
+      },
+      {
+        "image": "/products/pdp2.jpeg",
+        "alt": "pdp description 2"
+      },
+      {
+        "image": "/products/pdp3.jpeg",
+        "alt": "pdp description 3"
+      },
+      {
+        "image": "/products/pdp4.jpeg",
+        "alt": "pdp description 4"
+      }
+    ],
+    "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+  },
+  {
+    "name": "Classic T-Shirt",
+    "price": 75,
+    "alt": "classic t-shirt 1",
+    "image": "/products/shirt1.jpg",
+    "tags": [
+      "shirt",
+      "men"
+    ]
+  },
+  {
+    "name": "Classic T-Shirt",
+    "price": 75,
+    "alt": "classic t-shirt 2",
+    "image": "/products/shirt2.jpg",
+    "tags": [
+      "shirt",
+      "men"
+    ]
+  },
+  {
+    "name": "Classic T-Shirt",
+    "price": 75,
+    "alt": "classic t-shirt 3",
+    "image": "/products/shirt3.jpg",
+    "tags": [
+      "shirt",
+      "men"
+    ]
+  },
+  {
+    "name": "小麦套餐",
+    "price": 60,
+    "alt": "relaxed t shirt default1",
+    "image": "/products/b1.png",
+    "tags": [
+      "default1"
+    ]
+  },
+  {
+    "name": "小麦高产套餐",
+    "price": 49.63,
+    "alt": "relaxed t shirt default1",
+    "image": "/products/b2.png",
+    "tags": [
+      "default1"
+    ]
+  },
+  {
+    "name": "小麦省心套餐",
+    "price": 106.92,
+    "alt": "relaxed t shirt default1",
+    "image": "/products/b3.png",
+    "tags": [
+      "default1"
+    ]
+  },
+  {
+    "name": "小麦高产三遍药",
+    "price": 74.25,
+    "alt": "relaxed t shirt default1",
+    "image": "/products/b4.png",
+    "tags": [
+      "default1"
+    ]
+  },
+  {
+    "name": "小麦一喷三防增产套餐",
+    "price": 6.9,
+    "alt": "relaxed t shirt default1",
+    "image": "/products/b5.png",
+    "tags": [
+      "default1"
+    ],
+    "originalPrice": 31.50
+  },
+  {
+    "name": "小麦高产三遍药",
+    "price": 75,
+    "alt": "relaxed t shirt default1",
+    "image": "/products/b6.png",
+    "tags": [
+      "default1"
+    ]
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.90,
+    "alt": "relaxed t shirt default1",
+    "image": "/products/default13.jpeg",
+    "tags": [
+      "default1"
+    ]
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 15.90,
+    "alt": "relaxed t shirt default1",
+    "image": "/products/default12.jpeg",
+    "tags": [
+      "default1"
+    ],
+    "originalPrice": 31.50
+  },
+  {
+    "name": "Relaxed-fit graphic T-shirt",
+    "price": 21,
+    "alt": "relaxed t shirt default1",
+    "image": "/products/default11.jpeg",
+    "tags": [
+      "default1"
+    ]
+  }
+]

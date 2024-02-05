@@ -1,6 +1,10 @@
 {
   "currencyList": [
     {
+      "value": "CNY",
+      "label": "China Mainland (CN ¥)"
+    },
+    {
       "value": "USD",
       "label": "United States (US $)"
     },
@@ -33,92 +37,52 @@
   },
   "footerLinks": [
     {
-      "subTitle": "Info",
+      "subTitle": "信息",
       "links": [
         {
-          "text": "About Us",
+          "text": "关于我们",
           "link": "/about"
         }
       ]
     },
     {
-      "subTitle": "Support",
+      "subTitle": "支持",
       "links": [
         {
-          "text": "Contact Us",
+          "text": "联系我们",
           "link": "/support#contact"
-        },
-        {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
         }
       ]
     }
   ],
   "headerLinks": [
     {
-      "menuLabel": "商品",
+      "menuLabel": "全部商品",
       "menuLink": "/shop",
       "category": [
         {
-          "categoryLabel": "农药",
+          "categoryLabel": "",
           "submenu": [
             {
-              "menuLabel": "All clothing",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
+              "menuLabel": "默认",
               "menuLink": "/shop"
             }
           ]
         },
         {
-          "categoryLabel": "厉害的农药",
+          "categoryLabel": "",
           "submenu": [
             {
-              "menuLabel": "All clothing",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "pants",
+              "menuLabel": "销量",
               "menuLink": "/shop"
             }
           ]
         },
         {
-          "categoryLabel": "非常厉害的农药",
+          "categoryLabel": "",
           "submenu": [
             {
-              "menuLabel": "caps & scarves",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "bags",
+              "menuLabel": "上新",
               "menuLink": "/shop"
             }
           ]
@@ -126,12 +90,7 @@
       ]
     },
     {
-      "menuLabel": "journal",
-      "menuLink": "/blog",
-      "category": null
-    },
-    {
-      "menuLabel": "About",
+      "menuLabel": "关于我们",
       "menuLink": "/about",
       "category": null
     }
